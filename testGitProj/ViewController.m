@@ -17,8 +17,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+
     //test1
     //[2]
+
+    NSLog(@"第二次提交");
+    NSLog(@"第3次提交");
+//哈哈哈哈
+    //hei yo pretty girl
+//hey baby
 }
 
 //增加一行
