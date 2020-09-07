@@ -18,6 +18,8 @@
     [super viewDidLoad];
     
     NSLog(@"第二次提交");
+    NSLog(@"第3次提交");
+
 }
 
 
