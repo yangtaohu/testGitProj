@@ -16,6 +16,7 @@
 		0DDE019B250635DB00D5A78F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDE019A250635DB00D5A78F /* main.m */; };
 		0DDE01A5250635DB00D5A78F /* testGitProjTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDE01A4250635DB00D5A78F /* testGitProjTests.m */; };
 		0DDE01B0250635DB00D5A78F /* testGitProjUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDE01AF250635DB00D5A78F /* testGitProjUITests.m */; };
+		D59F0E5A25063E49004305E5 /* testView.m in Sources */ = {isa = PBXBuildFile; fileRef = D59F0E5925063E49004305E5 /* testView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		0DDE01AB250635DB00D5A78F /* testGitProjUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testGitProjUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DDE01AF250635DB00D5A78F /* testGitProjUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testGitProjUITests.m; sourceTree = "<group>"; };
 		0DDE01B1250635DB00D5A78F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D59F0E5825063E49004305E5 /* testView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testView.h; sourceTree = "<group>"; };
+		D59F0E5925063E49004305E5 /* testView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				0DDE0196250635DB00D5A78F /* LaunchScreen.storyboard */,
 				0DDE0199250635DB00D5A78F /* Info.plist */,
 				0DDE019A250635DB00D5A78F /* main.m */,
+				D59F0E5825063E49004305E5 /* testView.h */,
+				D59F0E5925063E49004305E5 /* testView.m */,
 			);
 			path = testGitProj;
 			sourceTree = "<group>";
@@ -270,6 +275,7 @@
 				0DDE0190250635D900D5A78F /* ViewController.m in Sources */,
 				0DDE018A250635D900D5A78F /* AppDelegate.m in Sources */,
 				0DDE019B250635DB00D5A78F /* main.m in Sources */,
+				D59F0E5A25063E49004305E5 /* testView.m in Sources */,
 				0DDE018D250635D900D5A78F /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
