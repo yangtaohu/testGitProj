@@ -16,13 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    NSLog(@"第二次提交");
-    NSLog(@"第3次提交");
-
-//哒哒哒
-
-//哈哈哈哈
+    // Do any additional setup after loading the view.
 }
 
 
