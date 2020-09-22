@@ -12,10 +12,8 @@
 +(void)load
 {
 
-    NSLog(@"%s : %@",__func__,@"你看看又是我修改你的文件");
-
-    //人生得意须尽欢;
-    //[劳资写了一首诗]
+    //  Created by 易家杨 on 2020/9/22.
+    //  Copyright © 2020 易家杨. All rights reserved.
     
 
 }
