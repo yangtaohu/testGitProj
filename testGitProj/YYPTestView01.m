@@ -16,11 +16,7 @@
     
     NSLog(@"%s",__func__);
     NSLog(@"%s TM又是谁修改了我的文件",__func__);
-
-    NSLog(@"%s : %d",__func__,__LINE__);
-
     
-    NSLog(@"everyBody 在他头上暴扣");
 
 }
 @end
