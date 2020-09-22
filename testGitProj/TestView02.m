@@ -12,8 +12,12 @@
 
 +(void)load
 {
+
     NSLog(@"%s 你改我的,我也改你的 艹",__func__);
     
+
+    NSLog(@"%s let's funking do this",__func__);
+
 }
 
 @end
