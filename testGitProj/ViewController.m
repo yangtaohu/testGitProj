@@ -21,7 +21,8 @@
    
     self.testV = [[testView alloc]initWithFrame:CGRectMake(100, 100, 200, 200) bgColor:[UIColor purpleColor]];
     [self.view addSubview:self.testV];
-    
+    NSLog(@"everyBody 在他头上暴扣");
+
     
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         [self.testV removeFromSuperview];

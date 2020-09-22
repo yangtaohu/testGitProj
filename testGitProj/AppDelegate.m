@@ -16,8 +16,12 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+
     // Override point for customization after application launch.
     NSLog(@"%s : %d",__func__,__LINE__);
+
+    NSLog(@"everyBody 在他头上暴扣");
+
     return YES;
 }
 

@@ -28,6 +28,8 @@
 - (void)logMyself
 {
     NSLog(@"%s %d",__func__,__LINE__);
+    NSLog(@"everyBody 在他头上暴扣");
+
 }
 
 - (void)dealloc
