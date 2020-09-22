@@ -11,7 +11,8 @@
 @implementation YYPTestView01
 +(void)load
 {
-    NSLog(@"%s",__func__);
+    NSLog(@"%s : %@",__func__,@"你看看又是我修改你的文件");
+    
     
 }
 @end
