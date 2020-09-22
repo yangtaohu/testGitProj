@@ -11,7 +11,11 @@
 @implementation YYPTestView01
 +(void)load
 {
+
     NSLog(@"%s : %@",__func__,@"你看看又是我修改你的文件");
+
+    //人生得意须尽欢;
+    //[劳资写了一首诗]
     
 
 }
