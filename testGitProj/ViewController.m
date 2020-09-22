@@ -23,13 +23,8 @@
     [self.view addSubview:self.testV];
     NSLog(@"everyBody 在他头上暴扣");
 
-    
-    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-        [self.testV removeFromSuperview];
-        self.testV = nil;
-    });
 
-  NSLog(@"%s : %d",__func__,__LINE__);
+
 }
 
 //增加一行
