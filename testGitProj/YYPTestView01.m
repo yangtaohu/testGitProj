@@ -12,10 +12,8 @@
 +(void)load
 {
 
-    //  Created by 易家杨 on 2020/9/22.
-    //  Copyright © 2020 易家杨. All rights reserved.
 
-
+// 人生美事 - 吃饱喝足
     
 
 }
