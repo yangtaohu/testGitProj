@@ -16,8 +16,6 @@
     //  Copyright © 2020 易家杨. All rights reserved.
 
 
-    //人生得意须尽欢;
-    //[劳资写了一首诗]
     
 
 }
