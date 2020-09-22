@@ -18,6 +18,7 @@
 
     NSLog(@"%s let's funking do this",__func__);
 
+    NSLog(@"%s : %d",__func__,__LINE__);
 }
 
 @end

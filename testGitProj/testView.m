@@ -34,6 +34,8 @@
 {
     NSLog(@"%s %@",__func__,[NSThread currentThread]);
 
- [NSObject cancelPreviousPerformRequestsWithTarget:self];
+    [NSObject cancelPreviousPerformRequestsWithTarget:self];
+    NSLog(@"%s : %d",__func__,__LINE__);
+    
 }
 @end
