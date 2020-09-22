@@ -10,12 +10,30 @@
 
 @implementation testView
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
-}
-*/
+- (instancetype)initWithFrame:(CGRect)frame bgColor:(UIColor *)bgColor;
+{
+    self = [super initWithFrame:frame];
+    if (self) {
+        self.backgroundColor = bgColor;
+        
+        [self performSelector:@selector(logMyself) withObject:nil afterDelay:5];
+        
+        
+        NSLog(@"%s %@",__func__,[NSThread currentThread]);
 
+    }
+    return self;
+}
+
+- (void)logMyself
+{
+    NSLog(@"%s %d",__func__,__LINE__);
+}
+
+- (void)dealloc
+{
+    NSLog(@"%s %@",__func__,[NSThread currentThread]);
+
+ [NSObject cancelPreviousPerformRequestsWithTarget:self];
+}
 @end
