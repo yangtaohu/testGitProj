@@ -12,7 +12,8 @@
 
 +(void)load
 {
-    NSLog(@"%s",__func__);
+    NSLog(@"%s 你改我的,我也改你的 艹",__func__);
+    
 }
 
 @end
